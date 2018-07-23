@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<title>Tester</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href= "https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Courier new", sans-serif}
+div.a{
+  line-height: 1.6;
+}
+}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("Strawberry.jpg");
+  min-height: 100%;
+}
+</style>
+
+<body>
+  <!-- Top menu part -->
+  <div class="w3-top">
+    <div class="w3-row w3-padding" style= "background-color:#F8A9B8">
+      <div class="w3-col s3">
+        <a href="#" class="w3-text-dark-grey w3-button w3-block w3-hover-pale-red" style= "background-color:#F8A9B8">HOME</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#menu" class="w3-text-dark-grey w3-button w3-block w3-hover-pale-red" style= "background-color:#F8A9B8">MENU</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#about" class="w3-text-dark-grey w3-button w3-block w3-hover-pale-red" style= "background-color:#F8A9B8">OUR STORY</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#contact" class="w3-text-dark-grey w3-button w3-block w3-hover-pale-red" style= "background-color:#F8A9B8">CONTACT</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Title w/ image -->
+  <header class="bgimg w3-display-container" id="home">
+    <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+      <span class="w3-text-dark-grey w3-large"><strong> Open from 10 AM to 7 PM </strong></span>
+    </div>
+    <div class="w3-display-middle w3-center">
+      <span class="w3-text-dark-grey" style="font-size:90px">strawberry</span>
+    </div>
+  </header>
+
+  <!-- Menu -->
+  <div class= " w3-container w3-padding-48" style= "background-color:#DE7286" id= "menu">
+    <h1 class="w3-center w3-text-white" style= "margin-bottom:20px;">MENU</h1>
+    <div class="w3-row w3-center" style= "background-color:#ffffff">
+
+      <div class="w3-row w3-center w3-card w3-padding">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+          <div class="w3-col s6 tablink w3-padding">Eat</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+          <div class="w3-col s6 tablink w3-padding">Drink</div>
+        </a>
+      </div>
+
+      <!--Food items-->
+      <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+        <h5> Strawberry Shortcake Puffs</h5>
+        <p class= "w3-text-grey"> puff pastry, strawberries, whipping cream</p><br>
+        <h5> Fresh Strawberry Pie</h5>
+        <p class= "w3-text-grey"> strawberries, pie </p><br>
+        <h5> Strawberry Lemon Shortcake</h5>
+        <p class= "w3-text-grey"> strawberries, lemon, whipping cream </p><br>
+        <h5> Chocolate-Topped Strawberry Cheesecake</h5>
+        <p class= "w3-text-grey">chocolate graham crackers, strawberries </p><br>
+        <h5> Shortcut Strawberry-Vanilla </h5>
+        <p class= "w3-text-grey"> strawberries, whipped topping </p><br>
+        <h5> Strawberry Banana Crepes</h5>
+        <p class= "w3-text-grey"> strawberries, bananas, whipping cream </p><br>
+        <h5> Berried Treasure Angel Food Cake</h5>
+        <p class= "w3-text-grey"> angle food cake, whipping cream, almond cake, blueberries, raspberries, strawberries </p><br>
+      </div>
+
+      <!--Drink items -->
+      <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+        <h5> Strawberry Milk </h5>
+        <p class = "w3-text-grey"> strawberries, whole milk </p><br>
+        <h5> Strawberry Basil Soda </h5>
+        <p class = "w3-text-grey"> strawberries, basil leaves, carbonated water </p><br>
+        <h5> Watermelon Strawberry Cooler </h5>
+        <p class = "w3-text-grey"> watermelon, strawberries, mint leaves, chia seeds </p><br>
+        <h5> Vegan Strawberry Orange Julius </h5>
+        <p class = "w3-text-grey"> strawberries, flax seeds, almond milk, orange juice </p><br>
+        <h5> Strawberry Milkshake </h5>
+        <p class = "w3-text-grey"> strawberries, whole milk, vanilla ice cream </p><br>
+        <h5> Strawberry Gin Smash </h5>
+        <p class = "w3-text-grey"> strawberries, gin, club soda, mint sprigs </p><br>
+        <h5> Strawberry Basil Margaritas </h5>
+        <p class = "w3-text-grey"> strawberries, basil leaves, tequila </p>
+      </div>
+
+
+    </div><br><br>
+  </div>
+
+  <!--About -->
+  <div class= " w3-container w3-padding-48" style= "background-color:#CCD9AA" id= "about">
+    <h1 class= "w3-center" style= "margin-bottom:24px">OUR STORY</h1>
+    <div class= "w3-content">
+
+      <p> fheosafneowafheouwanfejfeuwoafhefunewoafne fneef fneowanf feuoafn
+        fneuwofrenwounf feiwofjiweofjieowjfe fjeowfjewoifijf ewof ejfoiwefj wf
+        wfejwf fjewofjeofjwfo ejwofwef </p>
+        <p> feownfoewnfuewonfoew fheosafneowafheouwanfejfeuwoafhefunewoafne
+          fneef fneowanf feuoafn fneuwofrenwounf feiwofjiweofjieowjfe
+          fjeowfjewoifijf ewof ejfoiwefj wffneuwofrenwounf feiwofjiweofjieowjfe
+          fjeowfjewoifijf ewof ejfoiwefj wf wfejwf fjewofjeofjwfo ejwofwef </p>
+        </div>
+      </div>
+
+      <!--Contact-->
+      <div class= " w3-container w3-padding-48" style= "background-color: #F9E7E7" id= "contact">
+        <div class= "w3-content">
+          <h1 class= "w3-center" style= "margin-bottom:24px">CONTACT</h1>
+
+          <div class="w3-xlarge"><strong>San Francisco</strong></div>
+          <div class="w3-medium">Location</div>
+          <div class="w3-medium">(650)987-6543</div>
+          <div class="w3-medium">Monday - Sunday: 11AM - 10PM</div><br>
+
+          <div class="w3-xlarge"><strong>Los Angeles</strong></div>
+          <div class="w3-medium">Location</div>
+          <div class="w3-medium">(310)123-4567</div>
+          <div class="w3-medium">Monday - Sunday: 10AM - 9PM</div><br>
+
+          <div class= "w3-xlarge"><strong>Catering</strong></div>
+          <div class="w3-medium"> We would love to be a part of your next event! Please submit your inquiry below: </div>
+          <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-padding w3-round-large w3-border" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-padding w3-round-large w3-border" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-padding w3-round-large w3-border" type="text" placeholder="Phone Number" required name="Phone"></p>
+            <p><input class="w3-input w3-padding w3-round-large w3-border" type="text" placeholder="Message" required name="Message"></p>
+            <p><button class="w3-button w3-round-large w3-black" type="submit">SEND </button></p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-center w3-padding-24 w3-large" style= "background-color: #DDB6A7">
+        <p>Mock Up website</p>
+      </footer>
+
+      <!-- Javascript for Menu-->
+      <script>
+      function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" w3-pale-red", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-pale-red";
+      }
+      document.getElementById("myLink").click();
+      </script>
+
+    </body>
+    </html>
