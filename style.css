@@ -7,7 +7,6 @@ body{
     text-align: center;
     font-family: monospace;
     font-size: 100px;
-    background: url(Strawberry.jpg)
+    background: url("Strawberry.jpg")
     color: hotpink;
-    cursor:url("http://www.simpleimageresizer.com/_uploads/photos/2df14d96/Pofressor_1_10.jpg"), auto;
 }
